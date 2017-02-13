@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+}
+body{
+	background-color: #000;
+}
+#body{
+	
+background-color: #000;
+}
+header{
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	height: 70px;
+	background-color: transparent;
+	-webkit-transition: background-color .5s;
+}
+a.colo{
+	color:#fff;
+	font-size: 1.3em;
+}
+
+nav{
+	display: table;
+	margin: auto;
+	margin-top: 15px;
+	height: 40px;
+	-webkit-transition: margin-left .5s;
+}
+
+ul{
+	display: block;
+	float: left;
+	list-style: none;
+}
+
+ul li{
+	float: left;
+	margin: 10px;
+	padding: 2px;
+}
+
+ul a{
+	color: #F3F3F3;
+	text-decoration: none;
+
+}
+section#banner{
+	width: 100%;
+	background-image: url(../img/frontend/portada.jpg);
+	background-attachment: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+
+}
+
+
+img#logo{
+	float:left;
+	display: block;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 150px;
+	-webkit-transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
+}
+.jumbotron{
+	background-image:url(../img/frontend/nosotros.jpg);
+
+
+}
+
+#nosotro {
+	width: 100%;
+	height:600px;
+}
+
+
+.nosotros {
+	width: 100%;
+	height: 620px;
+	background-image: url(../img/frontend/nosotros.jpg);
+	background-attachment: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 130px;
+}
+#jumbotron1{
+	background-image: url(../img/frontend/convocatorias.jpg);
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: 100%; 
+}
+
+#carrousel{
+	width: 100%;
+	height: 480px;
+	background-color: #000; 
+}
+
+.caro1{
+	width: 220px;
+	height: 35px;
+	background-color: blue; 
+
+}
+
+
+
+
+h1.jumbo{
+	color: #eee;
+}
+p.jumbo {
+	color: #DF0101;
+	
+}
+
+
+h1.jumbo1{
+	color: #eee;
+}
+p.jumbo1{
+	color:#F7BE81;
+	/*#BDBDBD*/
+	position: center;
+}
+
+
+
+
+
+
+h1.jumbo1{
+	color: #eee;
+}
+p.jumbo2{
+	color: #D7DF01;
+	position: center;
+}
+h1.grande {
+	color: #A4A4A4;
+	font-size: 15em;
+} 
+h1.jumbox {
+	color:#FFf;
+	float: right;
+}
+p.izq{
+color:#fff;
+float: right;
+}
+
+#jumbotron2{
+	background-image: url(../img/frontend/torneos1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed; 
+}
+
+#torneos {
+	background-color:#000; 
+	
+	background-size: 100% 1000px; 
+
+}
+
+footer{
+	width: 100%;
+	height: 100px;
+	padding: 30px;
+	background-color: black;
+	color:#eee;
+	float: right;
+}
+
+
